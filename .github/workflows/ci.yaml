@@ -1,0 +1,12 @@
+name: first github action with self-hosted
+on:
+  push
+jobs:
+  test-self-hosted-gihub-actions
+    runs-on: self-hosted
+
+    steps:
+      - name: message
+        run: echo "hi welcome to slef-hosted guthob actions"
+
+
